@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnadm"
+    tools:context=".AdminHomeActivity"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/btnPromo"
+        android:layout_width="137dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="265dp"
+        android:background="@drawable/btnpromo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="137dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/btncustact"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnProduct"
+        android:layout_width="137dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="265dp"
+        android:background="@drawable/btnprod"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="137dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/btngallery"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    //profile admin
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileAdmin"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="579dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/nameAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="537dp"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
